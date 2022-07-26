@@ -29,3 +29,4 @@ else :
     print("Incorrect. The correct answer is English")
 
 print("You got " + str(score) + " points")
+print("You got " + str(round(score /15 *100)) + " %")
